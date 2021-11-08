@@ -1,5 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html, body{
     height: 100%;
+}
+
+main {
+    
+}
+
+main div {
+    background-color: rgb(255, 255, 255);
 }
 
 
@@ -10,6 +23,7 @@ html, body{
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
+
 
         opacity: 0.7;
     }
@@ -44,6 +58,22 @@ html, body{
 
 }
 
+.section{ 
+     background-image: url('../images/qm1.png'), url('../images/qm2.png' );
+     background-position: 0% 8%, 100% 100%;
+    background-repeat: no-repeat no-repeat;
+    background-size:80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: rgb(245, 245, 245);
+   
+}
+
+.dark {
+
+        filter: invert(1);
+}
+
 .section div {
     box-sizing: content-box;
     max-width: 60ch;
@@ -51,5 +81,13 @@ html, body{
     margin-right: auto;
     padding-left: 2ch;
     padding-right: 2ch;
+   
+   
+}
+
+.section p{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
 
 }
