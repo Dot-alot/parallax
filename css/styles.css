@@ -64,14 +64,14 @@ p{
 
 .climate0{
     background-image: url('../images/img0.jpg');
-    min-height: 100%;
+    min-height: 100vh;
 
    
 }
 
 .climate1{
     background-image: url('../images/img1.jpg');
-    min-height: 60%;
+    min-height: 60vh;
     
 }
 .climate2{
@@ -142,4 +142,9 @@ p{
 
 p {
     padding-bottom: 5em;
+}
+
+@media(max-width: 568px){
+    .climate0, .climate1, .climate2, .climate3 ,.climate4
+    {background-attachment: scroll;}
 }
