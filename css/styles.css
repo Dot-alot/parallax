@@ -64,14 +64,14 @@ p{
 
 .climate0{
     background-image: url('../images/img0.jpg');
-    min-height: 100vh;
+    min-height: 100%;
 
    
 }
 
 .climate1{
     background-image: url('../images/img1.jpg');
-    min-height: 60vh;
+    min-height: 60%;
     
 }
 .climate2{
